@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+.navbar {
+    backdrop-filter: blur(10px);
+}
+
+.reviews__container {
+    margin-right: 8.6%;
+    margin-left: 8.6%;
+}
+
+.reviews__title{
+    text-align: center;
+}
+
+.reviews__content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.review {
+    width: 29%;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.review__text {
+    font-style: italic;
+}
+
+.review__image{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 2px white solid;
+}
+
+.review__photo {
+    width:100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review__name {
+    font-size: 1.5rem;
+}
+.separator {
+    border: 1.6px solid #f8f9fa;
+    opacity: .6;
+    margin: 1.5rem 0 3rem;
+}
+
+.carousel__img {
+    height: 500px;
+}
+
+@media only screen and (max-width: 767px) {
+    .carousel__img {
+        height: 300px;
+    }
+}
+
+.carousel__button, .carousel__indicator {
+    filter: invert(1);
+}
+
+.modal__text {
+    font-size: 0.95rem;
+}
